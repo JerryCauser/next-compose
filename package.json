@@ -1,6 +1,6 @@
 {
   "name": "next-compose",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compose NextJs plugins in a simple way",
   "main": "index.js",
   "repository": {
