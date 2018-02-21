@@ -1,0 +1,12 @@
+{
+  "name": "next-compose",
+  "version": "0.0.1",
+  "description": "Compose NextJs plugins in a simple way",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JerryCauser/next-compose.git"
+  },
+  "author": "Artem Abzanov <developer@abzanov.com>",
+  "license": "MIT"
+}
