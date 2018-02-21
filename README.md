@@ -40,12 +40,11 @@ module.exports = compose([
 Example with build `vendor.css` and `app.css` from different input extensions:
 
 ```js
-const webpack = require('webpack')
-const compose = require('next-compose')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const withLess = require('@zeit/next-less')
 const withSass = require('@zeit/next-sass')
-const withSass = require('@zeit/next-less')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const commonsChunkConfig = require('@zeit/next-css/commons-chunk-config')
+const compose = require('./scripts/next-compose')}
 
 const extractVendorCSSPlugin = new ExtractTextPlugin('static/vendor.css')
 const extractAppCSSPlugin = new ExtractTextPlugin('static/app.css')
